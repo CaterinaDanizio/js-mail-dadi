@@ -13,12 +13,13 @@
 
      // Confrontare chi ha fatto il punteggio più alto e comunicalo all'utente
      if ( numeroUser > numeroPc ) {
+         document.getElementById('risultato').innerHTML = numeroUser + "  contro " + numeroPc;
          document.getElementById('esito').innerHTML = "Hai vinto!";
        } else if ( numeroUser < numeroPc) {
          document.getElementById('esito').innerHTML = "Hai perso!";
+         document.getElementById('risultato').innerHTML = numeroUser + " contro " + numeroPc;
        }
-
-       else {
+      else {
          document.getElementById('esito').innerHTML = "Hai pareggiato!";
        }
    });
