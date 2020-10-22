@@ -19,7 +19,8 @@
          document.getElementById('esito').innerHTML = "Hai perso!";
          document.getElementById('risultato').innerHTML = numeroUser + " contro " + numeroPc;
        }
-      else {
+      else if ( numeroUser === numeroPc) {
          document.getElementById('esito').innerHTML = "Hai pareggiato!";
+         document.getElementById('risultato').innerHTML = numeroUser + " = " + numeroPc;
        }
    });
