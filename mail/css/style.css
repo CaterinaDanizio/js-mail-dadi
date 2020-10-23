@@ -29,8 +29,17 @@ body {
 
 .container h1, h2 {
   padding: 20px;
+  margin: 10px 0;
 }
 
 .container input, button {
   padding: 10px;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.red {
+  border: 1px solid red;
 }
