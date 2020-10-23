@@ -1,45 +1,19 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-2019-corporate-annual-meeting-ceremony-background-design-meeting-of-the-image_73850.jpg");
-  background-size: cover;
+  background-image: url("../img/dadi.jpg");
   background-repeat: no-repeat;
-  font-family: monospace;
+  background-size: cover;
 }
 
-.flex {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
 .container {
   width: 40%;
-  min-height: 200px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px;
-}
-
-.container h1, h2 {
-  padding: 20px;
-  margin: 10px 0;
-}
-
-.container input, button {
   padding: 10px;
 }
 
-.green {
-  border: 1px solid green;
-}
-
-.red {
-  border: 1px solid red;
+.container button {
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 18px;
 }
