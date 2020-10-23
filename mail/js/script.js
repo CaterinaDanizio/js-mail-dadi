@@ -37,9 +37,11 @@ invia.addEventListener('click',
   // Output
     if (flag === true) {
       document.getElementById("esito").innerHTML = "Complimenti, sei invitato alla festa!";
+      esito.className = "green";
     }
     else {
-      document.getElementById("esito").innerHTML = "Che peccato, non sei invitato alla festa!"
+      document.getElementById("esito").innerHTML = "Che peccato, non sei invitato alla festa!";
+      esito.className = "red";
     }
   }
 });
